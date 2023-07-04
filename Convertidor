@@ -1,0 +1,8 @@
+x=input('Inserte la cantidad de colones:')
+y=input('Inserte la cantidad de dolares:')
+
+dolares_a_colones=int(y)*542
+colones_a_dolares=int(x)/542
+
+print(x,"colones son", round(colones_a_dolares, 2), "dolares")
+print(y, "dolares son", round(dolares_a_colones, 2), "colones")
